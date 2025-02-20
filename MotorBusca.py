@@ -3,7 +3,7 @@
 import os
 
 
-nome_arquivo = "Lei_n°7998-1990"
+
 
 """def buscar_diretorio():
     #input nome_arquivo = Lei_n°tal
@@ -19,6 +19,10 @@ nome_arquivo = "Lei_n°7998-1990"
         #diretorio =
         #dicionario = {tipo_dir: diretorio}
     print("Hello")"""
+
+
+
+
 
 # Definir o diretório pai
 diretorio_pai = "Arquivos/"
@@ -43,6 +47,7 @@ explorar_diretorios(diretorio_pai)
 
 
 
+
 def buscar_arquivos(pasta_raiz, extensao=".pdf"):
 
     try:
@@ -61,6 +66,7 @@ def buscar_arquivos(pasta_raiz, extensao=".pdf"):
         print(f"Arquivo não encontrado: {FileNotFoundError} ")
 
 
+nome_arquivo = "Lei_n°7998-1990"
 resultado = buscar_arquivos("Arquivos/Leis/")
 
 
